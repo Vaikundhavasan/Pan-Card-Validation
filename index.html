@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Pan Card Validation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="panCard">
+        <div class="header">
+            <h1>Pan Card Validation</h1>
+        </div>
+        <div class="card">
+            <form>
+                <table cellpadding="6">
+                    <tr>
+                        <th> <h1>First Name</h1></th>
+                        <th> <input id="firstName" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th> <h1>Last Name</h1></th>
+                        <th> <input id="lastName" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th> <h1>Mobile</h1></th>
+                        <th> <input id="mobile" type="number"></th>
+                    </tr>
+                    <tr>
+                        <th> <h1>Address</h1></th>
+                        <th> <textarea id="address"></textarea></th>
+                    </tr>
+                    <tr>
+                        <th> <h1>Email ID</h1></th>
+                        <th> <input id="email" type="email"></th>
+                    </tr>
+                    <tr>
+                        <th> <h1>Pan Card Number</h1></th>
+                        <th> <input id="pan" type="text"></th>
+                    </tr>
+                    <tr>
+                        <th> <button>Validate PanCard Number</button> </th>
+                        <th> <button>Clear Form</button> </th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="rules">
+            <h1>NOTE : Pan Number Should Appear</h1>
+            <ul>
+                <li>First 5 Characters Should be a alphabet either UpperCase or Lower Case.</li>
+                <li>Then 4 Characters Should be a Number.</li>
+                <li>Last One Character Should be a UpperCase alphabet.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
